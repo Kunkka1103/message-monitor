@@ -314,4 +314,4 @@ circleci:
 
 build-monitor:  $(BUILD_DEPS)
 	rm -rf ./message-monitor
-	go build $(GOFLAGS) -o check ./message-monitor.go
+	go build $(GOFLAGS) -o message-monitor ./message-monitor.go

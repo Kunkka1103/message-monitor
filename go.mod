@@ -148,3 +148,4 @@ require (
 	google.golang.org/protobuf v1.30.0 // indirect
 	lukechampine.com/blake3 v1.2.1 // indirect
 )
+replace github.com/filecoin-project/filecoin-ffi => ./extern/filecoin-ffi
